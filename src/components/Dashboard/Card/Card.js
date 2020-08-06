@@ -23,39 +23,45 @@ class Card extends Component {
           <dd className="ml0 gray">{id}</dd>
         </dl>
         <div className="flex pl4 pr4 justify-between">
-          <dl className="f6 lh-title">
+          <dl className="f6 lh-title w-50">
             <dt className="ml0 b pb2">Client</dt>
             <dd className="ml0 gray">{client}</dd>
           </dl>
-          <dl className="f6 lh-title">
+          <dl className="f6 lh-title w-50">
             <dt className="ml0 b pb2">Status </dt>
             <dd className="ml0 gray">{status}</dd>
           </dl>
-          <dl className="f6 lh-title">
-            <dt className="b pb2">Transportation</dt>
-            <dd className="ml0 gray pb2">{mode} </dd>
-          </dl>
+        
         </div>
+      
         <div className="flex pl4 pr4 justify-between">
-          <dl className="f6 lh-title">
-            <dt className="b pb2">ETD: </dt>
-            <dd className="ml0 gray pb2">{etd}</dd>
-          </dl>
-          <dl className="f6 lh-title">
-            <dt className="b pb2">ETA: </dt>
-            <dd className="ml0 gray pb2">{eta}</dd>
-          </dl>
-        </div>
-        <div className="flex pl4 pr4 justify-between">
-          <dl className="f6 lh-title">
+          <dl className="f6 lh-title w-50">
             <dt className="b pb2">Origin: </dt>
             <dd className="ml0 gray pb2">{origin}</dd>
           </dl>
-          <dl className="f6 lh-title">
+          <dl className="f6 lh-title w-50">
             <dt className="b pb2">Destination: </dt>
             <dd className="ml0 gray pb2">{destination}</dd>
           </dl>
         </div>
+
+        <div className="flex pl4 pr4 justify-between">
+          <dl className="f6 lh-title w-50">
+            <dt className="b pb2">ETD: </dt>
+            <dd className="ml0 gray pb2">{etd}</dd>
+          </dl>
+          <dl className="f6 lh-title w-50">
+            <dt className="b pb2">ETA: </dt>
+            <dd className="ml0 gray pb2">{eta}</dd>
+          </dl>
+        </div>
+
+        <div className="flex pl4 pr4">
+          <dl className="f6 lh-title w-30">
+            <dt className="b pb2">Transportation</dt>
+            <dd className="ml0 gray pb2">{mode} </dd>
+          </dl>
+      </div>
       </div>
     );
   }
