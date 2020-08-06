@@ -51,7 +51,7 @@ class Card extends Component {
             <dd className="ml0 gray pb2">{etd}</dd>
           </dl>
           <dl className="f6 lh-title">
-            <dt className="b pb2">ETA: </dt>
+              <dt className="b pb2">ETA: </dt>
             <dd className="ml0 gray pb2">{eta}</dd>
           </dl>
         </div>
